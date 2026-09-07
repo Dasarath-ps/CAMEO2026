@@ -1,0 +1,506 @@
+/*
+  =========================================
+  CAMEO 2026 - CYBERPUNK/VALORANT THEME
+  =========================================
+*/
+
+:root {
+  --void: #000000;
+  --valorant-red: #ff4655;
+  --valorant-red-glow: rgba(255, 70, 85, 0.4);
+  --metal: #ece8e1;
+  --tech-gray: #8b978f;
+  --tech-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: var(--void);
+  color: var(--metal);
+  font-family: "Oswald", sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.tech-font {
+  font-family: "Orbitron", sans-serif;
+}
+
+.text-valorant-red {
+  color: var(--valorant-red);
+}
+
+/* Geometric SVG "A" inside the logo */
+.logo-a {
+  display: inline-block;
+  height: 1.5em;
+  width: auto;
+  vertical-align: middle;
+  position: relative;
+  top: -0.06em;
+  margin: 0 1px;
+  filter: drop-shadow(0 0 6px rgba(255, 70, 85, 0.7));
+  transition:
+    filter 0.3s ease,
+    transform 0.3s ease;
+}
+
+.logo:hover .logo-a {
+  filter: drop-shadow(0 0 14px rgba(255, 70, 85, 1));
+  transform: scale(1.08);
+}
+
+
+/* ── Background Layers ─────────────────────────────── */
+
+.cyber-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background: url("../images/heroSection/bg.png") center center / cover no-repeat;
+  filter: brightness(0.65) contrast(1.1);
+}
+
+/* Matrix Rain Canvas – sits just above the bg image, below all content */
+#matrixCanvas {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.overlay-vignette {
+  position: fixed;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at center,
+      transparent 40%,
+      rgba(0, 0, 0, 0.45) 100%),
+    linear-gradient(to top, rgba(0, 0, 0, 0.55) 0%, transparent 35%);
+}
+
+/* ── Content Area ──────────────────────────────────── */
+
+.main-content {
+  position: relative;
+  z-index: 10;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Header ────────────────────────────────────────── */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 50;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+  backdrop-filter: blur(5px);
+  border-bottom: 1px solid rgba(255, 70, 85, 0.2);
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: var(--metal);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.logo span {
+  color: var(--valorant-red);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: var(--metal);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: var(--valorant-red);
+  transition: width 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--valorant-red);
+  text-shadow: 0 0 8px var(--valorant-red-glow);
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* ── Hero Section ──────────────────────────────────── */
+
+.hero {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10vw;
+  position: relative;
+}
+
+.hero-title {
+  font-size: clamp(4rem, 8vw, 8rem);
+  font-weight: 800;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+  text-shadow: 4px 4px 0px rgba(255, 70, 85, 0.3);
+  /* flex so image + text share the same vertical axis */
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+/* Logo-A image inside the giant hero title */
+.hero-title .logo-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  filter: drop-shadow(4px 4px 0px rgba(255, 70, 85, 0.3)) drop-shadow(0 0 10px rgba(255, 70, 85, 0.5));
+  transition: filter 0.3s ease;
+}
+
+.hero-subtitle {
+  font-size: clamp(1rem, 2vw, 2rem);
+  letter-spacing: 8px;
+  line-height: 2rem;
+  color: var(--tech-white);
+  margin-bottom: 40px;
+}
+
+.hero-subtitle span {
+  color: var(--valorant-red);
+  font-weight: 700;
+}
+
+/* ── Countdown Timer ───────────────────────────────── */
+
+.countdown-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.countdown-label {
+  font-size: 0.75rem;
+  letter-spacing: 6px;
+  color: var(--tech-gray);
+  text-transform: uppercase;
+}
+
+.countdown {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.countdown-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 70, 85, 0.06);
+  border: 1px solid rgba(255, 70, 85, 0.35);
+  padding: 14px 20px;
+  min-width: 80px;
+  backdrop-filter: blur(6px);
+  position: relative;
+  clip-path: polygon(0 0,
+      calc(100% - 8px) 0,
+      100% 8px,
+      100% 100%,
+      8px 100%,
+      0 calc(100% - 8px));
+}
+
+.countdown-unit::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg,
+      rgba(255, 70, 85, 0.1) 0%,
+      transparent 60%);
+  pointer-events: none;
+}
+
+.countdown-value {
+  font-family: "Orbitron", sans-serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  color: var(--metal);
+  line-height: 1;
+  text-shadow:
+    0 0 10px rgba(255, 70, 85, 0.7),
+    0 0 30px rgba(255, 70, 85, 0.3);
+  letter-spacing: 2px;
+}
+
+/* Seconds digit pulses to feel live */
+#cd-secs {
+  animation: sec-pulse 1s ease-in-out infinite;
+}
+
+@keyframes sec-pulse {
+
+  0%,
+  100% {
+    text-shadow:
+      0 0 10px rgba(255, 70, 85, 0.7),
+      0 0 30px rgba(255, 70, 85, 0.3);
+  }
+
+  50% {
+    text-shadow:
+      0 0 20px rgba(255, 70, 85, 1),
+      0 0 50px rgba(255, 70, 85, 0.6);
+  }
+}
+
+.countdown-unit-label {
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.6rem;
+  letter-spacing: 4px;
+  color: var(--valorant-red);
+  text-transform: uppercase;
+}
+
+.countdown-sep {
+  font-family: "Orbitron", sans-serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  color: var(--valorant-red);
+  line-height: 1;
+  margin-bottom: 20px;
+  opacity: 0.7;
+  animation: sep-blink 1s step-start infinite;
+}
+
+@keyframes sep-blink {
+
+  0%,
+  100% {
+    opacity: 0.7;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+}
+
+/* ── Glitch Effect ─────────────────────────────────── */
+
+.glitch {
+  position: relative;
+}
+
+/* The pseudo-element glitch layers render the data-text string (plain text).
+   On the hero-title the real content is C[img]MEO — the ::before/::after
+   will show "CAMEO'2.0" as text. We push them behind the image with
+   mix-blend-mode so they glitch the text columns without doubling the image. */
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.75;
+  pointer-events: none;
+  /* Keep glitch layers under the real image */
+  z-index: -1;
+}
+
+.glitch::before {
+  left: 2px;
+  text-shadow: -2px 0 var(--valorant-red);
+  clip: rect(24px, 550px, 90px, 0);
+  animation: glitch-anim-2 3s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+  left: -2px;
+  text-shadow: -2px 0 #0ff;
+  clip: rect(85px, 550px, 140px, 0);
+  animation: glitch-anim 2.5s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim {
+  0% {
+    clip: rect(74px, 9999px, 83px, 0);
+  }
+
+  20% {
+    clip: rect(32px, 9999px, 20px, 0);
+  }
+
+  40% {
+    clip: rect(62px, 9999px, 50px, 0);
+  }
+
+  60% {
+    clip: rect(10px, 9999px, 70px, 0);
+  }
+
+  80% {
+    clip: rect(89px, 9999px, 45px, 0);
+  }
+
+  100% {
+    clip: rect(54px, 9999px, 99px, 0);
+  }
+}
+
+@keyframes glitch-anim-2 {
+  0% {
+    clip: rect(65px, 9999px, 100px, 0);
+  }
+
+  20% {
+    clip: rect(15px, 9999px, 40px, 0);
+  }
+
+  40% {
+    clip: rect(85px, 9999px, 25px, 0);
+  }
+
+  60% {
+    clip: rect(45px, 9999px, 75px, 0);
+  }
+
+  80% {
+    clip: rect(2px, 9999px, 90px, 0);
+  }
+
+  100% {
+    clip: rect(35px, 9999px, 15px, 0);
+  }
+}
+
+/* ── Responsive ────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 0 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: clamp(1.8rem, 9vw, 3rem);
+    justify-content: center;
+    letter-spacing: -2px;
+  }
+
+  .countdown {
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 6px;
+  }
+
+  .countdown-unit {
+    min-width: 50px;
+    padding: 8px 10px;
+  }
+
+  .countdown-value {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+  }
+
+  .countdown-sep {
+    display: none;
+  }
+}
+
+/* ── Events Section ─────────────────────────────────── */
+
+.events-section {
+  background: radial-gradient(circle at center, rgba(255, 70, 85, 0.05) 0%, transparent 60%);
+}
+
+.text-shadow-glow {
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2), 0 0 40px rgba(255, 70, 85, 0.3);
+}
+
+.text-shadow-sm {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.event-card {
+  width: 320px;
+  height: 460px;
+}
+
+@media (max-width: 768px) {
+  .event-card {
+    width: 280px;
+    height: 400px;
+  }
+}
