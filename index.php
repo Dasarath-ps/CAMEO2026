@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -33,7 +33,7 @@
 
         <section class="main-content">
             <!-- Hero Section -->
-            <section class="hero w-screen h-screen pt-32">
+            <section id="home" class="hero w-screen h-screen pt-32">
                 <h1 class="hero-title  tech-font " data-text="CAMEO'2.0">C<img src="images/heroSection/logo-a.png" class="logo-a" alt="A" aria-label="A">MEO<span class="text-valorant-red">'2.O</span></h1>
 
                 <p class="hero-subtitle tech-font">

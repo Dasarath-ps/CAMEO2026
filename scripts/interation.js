@@ -176,6 +176,17 @@ document.addEventListener("DOMContentLoaded", () => {
       closeIcon.classList.toggle("hidden");
     });
   }
+
+  if (menu) {
+    const mobileLinks = menu.querySelectorAll("a");
+    mobileLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        menu.classList.add("translate-x-full");
+        menuIcon.classList.remove("hidden");
+        closeIcon.classList.add("hidden");
+      });
+    });
+  }
 });
 
 // Carousel Drag to Scroll
@@ -212,3 +223,16 @@ document.addEventListener("DOMContentLoaded", () => {
     carousel.scrollLeft = scrollLeft - walk;
   });
 });
+
+// Smooth Scrolling for Anchor Links
+document.querySelectorAll('a[href^="#"]').forEach((a) =>
+  a.addEventListener("click", (e) => {
+    const targetId = a.getAttribute("href");
+    if (targetId === "#") return;
+    const el = document.querySelector(targetId);
+    if (el) {
+      e.preventDefault();
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  }),
+);

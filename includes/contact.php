@@ -29,9 +29,9 @@
             </div>
 
             <div class="flex flex-col items-center">
-              <h3 class="text-xl font-bold group-hover:text-purple-400">Ms. SIJI P. JOY</h3>
-              <a href="tel:+919495427742" class="text-xs font-bold px-4 py-2 bg-cyan-900/40 text-cyan-300 rounded border border-cyan-500/30 hover:bg-cyan-800/50 mt-2">
-                📞 +91 94954 27742
+              <h3 class="text-xl font-bold group-hover:text-purple-400">Ms. Anu J Marattil</h3>
+              <a href="tel:+919947950539" class="text-xs font-bold px-4 py-2 bg-cyan-900/40 text-cyan-300 rounded border border-cyan-500/30 hover:bg-cyan-800/50 mt-2">
+                📞 +91 9947950539
               </a>
             </div>
           </div>
@@ -45,25 +45,25 @@
 
           <div class="flex flex-col gap-4">
             <div class="flex flex-col items-center">
-              <h3 class="text-xl font-bold group-hover:text-purple-400">JINS JOGY</h3>
-              <a href="tel:+918590616546" class="text-xs font-bold px-4 py-2 bg-purple-900/40 text-purple-300 rounded border border-purple-500/30 hover:bg-purple-800/50 mt-2">
-                📞 +91 85906 16546
+              <h3 class="text-xl font-bold group-hover:text-purple-400">Mr. Rijomon Roy</h3>
+              <a href="tel:+918921971415" class="text-xs font-bold px-4 py-2 bg-purple-900/40 text-purple-300 rounded border border-purple-500/30 hover:bg-purple-800/50 mt-2">
+                📞 +91 8921971415
               </a>
             </div>
 
             <div class="flex flex-col items-center">
-              <h3 class="text-xl font-bold group-hover:text-purple-400">Mr. DERMIS JOSEPHINE</h3>
-              <a href="tel:+917909173323" class="text-xs font-bold px-4 py-2 bg-purple-900/40 text-purple-300 rounded border border-purple-500/30 hover:bg-purple-800/50 mt-2">
-                📞 +91 79091 73323
+              <h3 class="text-xl font-bold group-hover:text-purple-400">Ms. Ashna Thomas</h3>
+              <a href="tel:+918590878440" class="text-xs font-bold px-4 py-2 bg-purple-900/40 text-purple-300 rounded border border-purple-500/30 hover:bg-purple-800/50 mt-2">
+                📞 +91 8590878440
               </a>
             </div>
 
-            <div class="flex flex-col items-center">
+            <!-- <div class="flex flex-col items-center">
               <h3 class="text-xl font-bold group-hover:text-purple-400">Ms. ATHULYA P.R</h3>
               <a href="tel:+917736009251" class="text-xs font-bold px-4 py-2 bg-purple-900/40 text-purple-300 rounded border border-purple-500/30 hover:bg-purple-800/50 mt-2">
                 📞 +91 77360 09251
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
