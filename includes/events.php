@@ -95,10 +95,10 @@
             </a>
 
             <!-- Card 5 -->
-            <a href="events/pixora.php">
+            <a href="events/efootball">
                 <div class="event-card snap-center shrink-0 relative group rounded-2xl overflow-hidden border border-white/10 bg-black/40 backdrop-blur-md transition-all duration-500 hover:border-valorant-red/80 hover:shadow-[0_0_30px_rgba(255,70,85,0.4)] hover:-translate-y-2">
                     <div class="absolute inset-0 z-0">
-                        <img src="images/Events/pixora.png" alt="PIXORA" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700">
+                        <img src="images/Events/efootball/posterrr.jpeg" alt="efootball" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700">
                         <div class="absolute inset-0"></div>
                     </div>
                     <div class="relative z-10 p-6 flex flex-col h-full justify-between">
@@ -114,10 +114,10 @@
             </a>
 
             <!-- Card 6 -->
-            <a href="events/styleformex.php">
+            <a href="events/cssCoding">
                 <div class="event-card snap-center shrink-0 relative group rounded-2xl overflow-hidden border border-white/10 bg-black/40 backdrop-blur-md transition-all duration-500 hover:border-valorant-red/80 hover:shadow-[0_0_30px_rgba(255,70,85,0.4)] hover:-translate-y-2">
                     <div class="absolute inset-0 z-0">
-                        <img src="images/Events/styleformex.png" alt="STYLEFORMEX" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700">
+                        <img src="images/Events/css/poste.jpeg" alt="cssCoding" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700">
                         <div class="absolute inset-0"></div>
                     </div>
                     <div class="relative z-10 p-6 flex flex-col h-full justify-between">
@@ -133,7 +133,7 @@
             </a>
 
             <!-- Card 7 -->
-            <a href="events/zreel.php">
+            <a href="events/reel">
                 <div class="event-card snap-center shrink-0 relative group rounded-2xl overflow-hidden border border-white/10 bg-black/40 backdrop-blur-md transition-all duration-500 hover:border-valorant-red/80 hover:shadow-[0_0_30px_rgba(255,70,85,0.4)] hover:-translate-y-2">
                     <div class="absolute inset-0 z-0">
                         <img src="images/Events/reel/poster.jpeg" alt="ZREEL" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700">
@@ -150,8 +150,43 @@
                     </div>
                 </div>
             </a>
+            <!-- Card 8 -->
+            <a href="events/bgmi">
+                <div class="event-card snap-center shrink-0 relative group rounded-2xl overflow-hidden border border-white/10 bg-black/40 backdrop-blur-md transition-all duration-500 hover:border-valorant-red/80 hover:shadow-[0_0_30px_rgba(255,70,85,0.4)] hover:-translate-y-2">
+                    <div class="absolute inset-0 z-0">
+                        <img src="images/Events/bgmi/poster.jpeg" alt="bgmi" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700">
+                        <div class="absolute inset-0"></div>
+                    </div>
+                    <div class="relative z-10 p-6 flex flex-col h-full justify-between">
+                        <div class="flex justify-between items-start">
+                            <span class="tech-font text-4xl font-bold text-white/30 group-hover:text-valorant-red transition-colors duration-300">08</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white/30 group-hover:text-white transition-colors duration-300">
+                                <line x1="7" y1="17" x2="17" y2="7"></line>
+                                <polyline points="7 7 17 7 17 17"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </a>
 
+            <!-- Card 9 -->
+            <a href="events/choreo">
+                <div class="event-card snap-center shrink-0 relative group rounded-2xl overflow-hidden border border-white/10 bg-black/40 backdrop-blur-md transition-all duration-500 hover:border-valorant-red/80 hover:shadow-[0_0_30px_rgba(255,70,85,0.4)] hover:-translate-y-2">
+                    <div class="absolute inset-0 z-0">
+                        <img src="images/Events/choreo/poste.jpeg" alt="choreo" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700">
+                        <div class="absolute inset-0"></div>
+                    </div>
+                    <div class="relative z-10 p-6 flex flex-col h-full justify-between">
+                        <div class="flex justify-between items-start">
+                            <span class="tech-font text-4xl font-bold text-white/30 group-hover:text-valorant-red transition-colors duration-300">09</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white/30 group-hover:text-white transition-colors duration-300">
+                                <line x1="7" y1="17" x2="17" y2="7"></line>
+                                <polyline points="7 7 17 7 17 17"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </a>
         </div>
     </div>
-
 </section>
