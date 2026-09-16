@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>STACK_ATTACK // DEFY THE LIMITS</title>
-  <meta name="description" content="STACK ATTACK — Cyberpunk coding competition.">
+  <title>TREASURE_HUNT // DEFY THE LIMITS</title>
+  <meta name="description" content="TREASURE HUNT — Find the hidden clues.">
   <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
 </head>
 
@@ -19,10 +19,9 @@
   <!-- Navbar -->
   <header class="navbar">
     <div class="wrap">
-      <a class="brand" href="#home">STACK_ATTACK</a>
+      <a class="brand" href="#home">TREASURE_HUNT</a>
       <nav class="navtabs">
         <a href="#about">Overview</a>
-        <a href="#rounds">Rounds</a>
         <a href="#rules">Rules</a>
         <a href="#timeline">Timeline</a>
         <a href="#register" class="text-red">Register</a>
@@ -88,30 +87,30 @@
     <section class="hero" id="home">
       <div class="wrap">
         <div>
-          <p class="hero-sub">// SYSTEM OVERRIDE INITIATED. PREPARE FOR BATTLE.</p>
-          <h1 class="glitch-effect" data-text="STACK ATTACK">STACK ATTACK</h1>
+          <p class="hero-sub">Your Treasure Is Waiting.</p>
+          <h1 class="glitch-effect" data-text="TREASURE HUNT">TREASURE HUNT</h1>
           <h2 class="text-cyan">SEPTEMBER 25</h2>
 
           <p class="hero-sub" style="margin-top: 2rem;">
-            Three rounds. One call stack. Push a solution, get evaluated, and only the sharpest frame survives to the top.
+            Follow the clues. Solve the puzzles. Find the treasure.
           </p>
 
           <div class="hero-actions">
-            <a class="btn btn-solid" href="#register">INITIALIZE_REG()</a>
-            <a class="btn btn-ghost" href="#about">READ_BRIEF()</a>
+            <a class="btn btn-solid" href="#register">Register Now</a>
+            <a class="btn btn-ghost" href="#about">The Brief</a>
           </div>
         </div>
 
         <div class="stack-panel">
           <div class="stack-panel-head">
-            // CALL_STACK.TRACE
+            // TREASURE.LOG
           </div>
           <div class="stack-visual">
-            <div class="stack-frame champion">CHAMPION<span>()</span> &larr; RETURNED</div>
-            <div class="stack-frame">ROUND_3<span>()</span></div>
-            <div class="stack-frame">ROUND_2<span>()</span></div>
-            <div class="stack-frame">ROUND_1<span>()</span></div>
-            <div class="stack-frame">MAIN<span>()</span></div>
+            <div class="stack-frame champion">TREASURE_FOUND<span>()</span> &larr; RETURNED</div>
+            <div class="stack-frame">CLUE_3<span>()</span></div>
+            <div class="stack-frame">CLUE_2<span>()</span></div>
+            <div class="stack-frame">CLUE_1<span>()</span></div>
+            <div class="stack-frame">START<span>()</span></div>
           </div>
         </div>
       </div>
@@ -133,39 +132,10 @@
           </div>
           <div class="terminal-body">
             <p><span class="prompt">root@sys:~#</span> cat manifest.sh</p>
-            <p>Stack Attack is a speed and algorithmic coding competition running on <span class="highlight">September 25</span>.</p>
-            <p>Coders compete across <span class="highlight">3 elimination rounds</span> testing syntax speed, logical debugging, and algorithmic optimization.</p>
-            <p>All submissions are graded by automated sandboxed test runners — speed and correctness both count. Defy the limits.</p>
+            <p>Treasure Hunt is an exhilarating physical and mental challenge happening on <span class="highlight">September 24</span>.</p>
+            <p>Teams of 4 navigate through clues, solve puzzles, and race against time to uncover the ultimate prize.</p>
+            <p>Only the sharpest minds and the fastest feet will claim the treasure. Are you ready?</p>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Rounds -->
-    <section id="rounds">
-      <div class="wrap">
-        <div class="section-head">
-          <h2 class="glitch-effect" data-text="02 // THE FRAMES">02 // THE FRAMES</h2>
-        </div>
-
-        <div class="frames">
-          <article class="frame-card" data-depth="1">
-            <span class="frame-tag">30 MIN</span>
-            <h3 class="text-light">ROUND 1: MCQ QUIZ</h3>
-            <p>Test your knowledge on syntax, core concepts, and algorithmic foundations in this rapid-fire round.</p>
-          </article>
-
-          <article class="frame-card" data-depth="2">
-            <span class="frame-tag" style="color: var(--cyber-yellow)">30 MIN</span>
-            <h3 class="text-cyan">ROUND 2: DEBUGGING</h3>
-            <p>Find and fix syntax errors and logical bugs in broken code snippets under a tight clock.</p>
-          </article>
-
-          <article class="frame-card" data-depth="3">
-            <span class="frame-tag" style="color: var(--valo-red)">45 MIN</span>
-            <h3 class="text-red">ROUND 3: CODING CHALLENGE</h3>
-            <p>Top qualifiers face off to solve complex algorithmic and optimization problems live on stage.</p>
-          </article>
         </div>
       </div>
     </section>
@@ -174,9 +144,8 @@
     <section id="rules">
       <div class="wrap">
         <div class="section-head">
-          <h2 class="glitch-effect text-yellow" data-text="03 // RULES & REGS">03 // RULES & REGS</h2>
+          <h2 class="glitch-effect" data-text="02 // THE RULES">02 // THE RULES</h2>
         </div>
-
         <div class="terminal">
           <div class="terminal-head">
             <span class="dot"></span>
@@ -184,18 +153,28 @@
             <span class="dot"></span>
             <span style="margin-left: 10px; color: var(--border-cyan); font-family: var(--font-body);">RULES.TXT</span>
           </div>
-          <div class="terminal-body">
-            <ul style="list-style-type: square; margin-left: 20px;">
-              <li style="margin-bottom: 8px;">Students from Nirmala College are not eligible to participate.</li>
-              <li style="margin-bottom: 8px;">Each team must consist of exactly 2 members.</li>
-              <li style="margin-bottom: 8px;">All participants must report before <span class="highlight">10:00 AM</span>.</li>
-              <li style="margin-bottom: 8px;">Programming languages allowed: <span class="text-cyan">C, C++ and Java</span>.</li>
-              <li style="margin-bottom: 8px;">Registration fees are non-refundable once registration is completed.</li>
-              <li style="margin-bottom: 8px;">Discussion between participants is strictly prohibited during the event.</li>
-              <li style="margin-bottom: 8px;">Mobile phones, internet access, and any form of outside help are strictly prohibited.</li>
-              <li style="margin-bottom: 8px;">The judges' decision will be final and binding.</li>
-              <li style="margin-bottom: 8px;">A valid College ID Card is mandatory for all participants.</li>
-            </ul>
+          <div class="terminal-body rules-list">
+            <ol>
+              <li>Student from nirmala college can not participate.</li>
+              <li>Each team must consist of 4 members from the same college.</li>
+              <li>Each participant may be a member of only one team.</li>
+              <li>All participants must carry their valid college ID card and present it when required.</li>
+              <li>Clues must be solved in the given order. Skipping clues is strictly prohibited.</li>
+              <li>The event will start promptly at the scheduled time, regardless of other schedules or delays.</li>
+              <li>Participants must report and complete registration before 9:30 AM on 24 September 2026. Late arrivals may be disqualified.</li>
+              <li>The competition will begin at 10:30 AM.</li>
+              <li>Teams are not permitted to communicate or collaborate with other teams during the competition.</li>
+              <li>The use of mobile phones, the Internet, or any form of outside assistance is strictly prohibited.</li>
+              <li>The decision of the judging panel shall be final and binding.</li>
+              <li>Registration fees are non refundable once the registration is completed.</li>
+              <li>Participation in the Treasure Hunt is open exclusively to students from external colleges.</li>
+              <li>Participants must not damage, move, hide, alter, or tamper with any clue, QR code, marker, property, or event material.</li>
+              <li>Participants must not enter restricted, dangerous, or unauthorized areas. They must remain within the designated event premises.</li>
+              <li>Participants must not run in unsafe areas, climb structures, enter restricted locations, or engage in any activity that may endanger themselves or others.</li>
+              <li>Participants may be responsible for any intentional damage to event materials or college property.</li>
+              <li>The registration fee is 400 per team.</li>
+              <li>Any violation of the above rules may result in immediate disqualification.</li>
+            </ol>
           </div>
         </div>
       </div>
@@ -205,71 +184,29 @@
     <section id="timeline">
       <div class="wrap">
         <div class="section-head">
-          <h2 class="glitch-effect text-cyan" data-text="04 // SCHEDULE">04 // SCHEDULE</h2>
+          <h2 class="glitch-effect text-cyan" data-text="03 // SCHEDULE">03 // SCHEDULE</h2>
         </div>
 
         <div class="log">
           <div class="log-line active">
             <span class="log-time">09:30 AM</span>
             <div class="log-body">
-              <h3>REGISTRATION & SETUP</h3>
-              <p>Registration, Seating, and Instructions (5 min)</p>
+              <h3>REGISTRATION DEADLINE</h3>
+              <p>Participants must report and complete registration.</p>
             </div>
           </div>
           <div class="log-line active">
             <span class="log-time">10:00 AM</span>
             <div class="log-body">
-              <h3 class="text-red">ROUND 1: MCQ QUIZ</h3>
-              <p>First elimination stage opens. (30 min)</p>
+              <h3 class="text-red">BRIEFING & SETUP</h3>
+              <p>Instructions and rules explanation.</p>
             </div>
           </div>
           <div class="log-line">
-            <span class="log-time">10:35 AM</span>
+            <span class="log-time">10:30 AM</span>
             <div class="log-body">
-              <h3>SUBMISSION & TRANSITION</h3>
-              <p>Buffer time for collection and transition. (5 min)</p>
-            </div>
-          </div>
-          <div class="log-line">
-            <span class="log-time">10:40 AM</span>
-            <div class="log-body">
-              <h3 class="text-cyan">ROUND 2: DEBUGGING</h3>
-              <p>Find and fix the bugs. (30 min)</p>
-            </div>
-          </div>
-          <div class="log-line">
-            <span class="log-time">11:10 AM</span>
-            <div class="log-body">
-              <h3>EVALUATION & SELECTION</h3>
-              <p>Evaluation of Round 2 & selection of finalists. (10 min)</p>
-            </div>
-          </div>
-          <div class="log-line">
-            <span class="log-time">11:20 AM</span>
-            <div class="log-body">
-              <h3>ROUND 3 SETUP</h3>
-              <p>Instructions and environment setup for finalists. (5 min)</p>
-            </div>
-          </div>
-          <div class="log-line">
-            <span class="log-time">11:25 AM</span>
-            <div class="log-body">
-              <h3 class="text-yellow">ROUND 3: CODING CHALLENGE</h3>
-              <p>The final clash. (45 min)</p>
-            </div>
-          </div>
-          <div class="log-line">
-            <span class="log-time">12:10 PM</span>
-            <div class="log-body">
-              <h3>FINAL EVALUATION</h3>
-              <p>Final evaluation & result compilation. (10 min)</p>
-            </div>
-          </div>
-          <div class="log-line">
-            <span class="log-time">12:20 PM</span>
-            <div class="log-body">
-              <h3 class="text-cyan">RESULTS & AWARDS</h3>
-              <p>Announcement of winners. (10 min)</p>
+              <h3 class="text-cyan">THE HUNT BEGINS</h3>
+              <p>First clue is distributed. Let the race begin.</p>
             </div>
           </div>
         </div>
@@ -279,19 +216,27 @@
     <section id="register">
       <div class="wrap">
         <div class="section-head">
-          <h2 class="glitch-effect text-red" data-text="05 // SECURE ACCESS">05 // SECURE ACCESS</h2>
-          <p>₹200 per participant. Payment required to confirm registration.</p>
+          <h2 class="glitch-effect text-red" data-text="04 // SECURE ACCESS">04 // SECURE ACCESS</h2>
+          <p>₹400 per team. Payment required to confirm registration.</p>
         </div>
 
         <div class="notice-box">
           <h3 class="text-yellow">// PAYMENT PROTOCOL</h3>
           <p>You must complete the payment via UPI to secure your spot in the grid. Keep a screenshot of your successful transaction, as it must be uploaded to our official Google Form.</p>
           <select name="college_confirm" id="collegeConfirm" required>
-            <option value="">Confirm You are not in Nirmala College Muvatupuzha</option>
+            <option value="Nirmala College">Confirm You are not in Nirmala College Muvatupuzha</option>
             <option value="Other">Other College</option>
             <option value="Nirmala College">Nirmala College Muvatupuzha</option>
           </select>
           <div id="nirmalaWarning" style="color: var(--valo-red); margin-top: 10px; display: none;">// ERROR: Registration is restricted for Nirmala College students.</div>
+          
+          <select name="course_confirm" id="courseConfirm" required style="margin-top: 10px;">
+            <option value="B.Tech">Select Your Course</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="M.Tech">M.Tech</option>
+            <option value="Other">Other Degree (BSc, BCA, etc.)</option>
+          </select>
+          <div id="courseWarning" style="color: var(--valo-red); margin-top: 10px; display: none;">// ERROR: Registration is restricted for B.Tech and M.Tech students.</div>
 
           <label class="cyber-checkbox-label">
             <input type="checkbox" id="paymentAcknowledge">
@@ -302,16 +247,19 @@
 
         <div id="paymentPortal" class="payment-portal hidden">
           <div class="qr-container">
-            <h4 class="text-cyan">SCAN TO PAY ₹200</h4>
+            <h4 class="text-cyan">SCAN TO PAY ₹400</h4>
             <!-- Placeholder for actual QR code image -->
-            <img src="payment_qr/devan.jpeg" alt="Payment QR Code Placeholder" class="qr-code">
+            <div class="qr-wrapper">
+              <img src="payment_qr/treasure1Qr.jpeg" alt="Payment QR Code Placeholder" class="qr-code">
+              <img src="payment_qr/treasure2Qr.jpeg" alt="Payment QR Code Placeholder" class="qr-code">
+            </div>
             <p style="margin-top: 10px; font-family: var(--font-body); color: var(--valo-light);">UPI: technova@ybl</p>
           </div>
 
           <div class="form-container">
             <h4 class="text-red">FINAL STEP: TRANSMIT DATA</h4>
             <p>Upload your payment screenshot and participant details to the central mainframe.</p>
-            <a class="btn btn-solid" href="https://docs.google.com/forms/d/e/1FAIpQLScrEHc4zLHOtKy5PS69lNU791_LUq0HnONgsHrhmOOt2BP5Cg/viewform" target="_blank" style="margin-top: 1rem;">
+            <a class="btn btn-solid" href="https://docs.google.com/forms/d/e/1FAIpQLScEF0J2l9d88G-kHC-d3htDHIQ5AqHx8Z8bkVvffyAP9ms50Q/viewform?usp=dialog" target="_blank" style="margin-top: 1rem;">
               ACCESS_GOOGLE_FORM()
             </a>
           </div>
@@ -321,30 +269,49 @@
   </main>
 
   <footer>
-    <p>© 2026 STACK_ATTACK // SYSTEM.HALT.</p>
+    <p>© 2026 TREASURE_HUNT // SYSTEM.HALT.</p>
   </footer>
 
   <script src="script.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const collegeConfirm = document.getElementById('collegeConfirm');
+      const courseConfirm = document.getElementById('courseConfirm');
       const paymentAcknowledge = document.getElementById('paymentAcknowledge');
       const nirmalaWarning = document.getElementById('nirmalaWarning');
+      const courseWarning = document.getElementById('courseWarning');
       const paymentPortal = document.getElementById('paymentPortal');
 
-      if (collegeConfirm && paymentAcknowledge && nirmalaWarning) {
-        collegeConfirm.addEventListener('change', function() {
-          if (this.value === 'Nirmala College') {
+      function validateRegistration() {
+        let isValid = true;
+        
+        if (collegeConfirm && collegeConfirm.value === 'Nirmala College') {
+          isValid = false;
+          nirmalaWarning.style.display = 'block';
+        } else if (nirmalaWarning) {
+          nirmalaWarning.style.display = 'none';
+        }
+        
+        if (courseConfirm && (courseConfirm.value === 'B.Tech' || courseConfirm.value === 'M.Tech')) {
+          isValid = false;
+          courseWarning.style.display = 'block';
+        } else if (courseWarning) {
+          courseWarning.style.display = 'none';
+        }
+        
+        if (!isValid) {
+          if (paymentAcknowledge) {
             paymentAcknowledge.disabled = true;
             paymentAcknowledge.checked = false;
-            nirmalaWarning.style.display = 'block';
-            if (paymentPortal) paymentPortal.classList.add('hidden');
-          } else {
-            paymentAcknowledge.disabled = false;
-            nirmalaWarning.style.display = 'none';
           }
-        });
+          if (paymentPortal) paymentPortal.classList.add('hidden');
+        } else {
+          if (paymentAcknowledge) paymentAcknowledge.disabled = false;
+        }
       }
+
+      if (collegeConfirm) collegeConfirm.addEventListener('change', validateRegistration);
+      if (courseConfirm) courseConfirm.addEventListener('change', validateRegistration);
     });
   </script>
 </body>

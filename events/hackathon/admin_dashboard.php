@@ -497,6 +497,19 @@ try {
             </div>
         </div>
 
+        <?php if (isset($_SESSION['message'])): ?>
+            <div style="background: rgba(16, 185, 129, 0.2); color: #10b981; border: 1px solid #10b981; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                <?= htmlspecialchars($_SESSION['message']) ?>
+            </div>
+            <?php unset($_SESSION['message']); ?>
+        <?php endif; ?>
+        <?php if (isset($_SESSION['error'])): ?>
+            <div style="background: rgba(239, 68, 68, 0.2); color: #ef4444; border: 1px solid #ef4444; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                <?= htmlspecialchars($_SESSION['error']) ?>
+            </div>
+            <?php unset($_SESSION['error']); ?>
+        <?php endif; ?>
+
         <!-- Statistics -->
         <div class="stats-grid">
             <div class="stat-card">
@@ -597,6 +610,13 @@ try {
                             <div class="financials">
                                 <span class="amt">₹<?= number_format($reg['amount']) ?></span>
                                 <span class="date-info">Payment Received</span>
+                            </div>
+                            <div class="actions" style="display: flex; gap: 10px;">
+                                <a href="edit_registration.php?id=<?= $reg['id'] ?>" class="action-btn" style="background: var(--accent); color: white; text-decoration: none;">Edit</a>
+                                <form method="POST" action="delete_registration.php" onsubmit="return confirm('Are you sure you want to delete this registration? This cannot be undone.');" style="margin: 0;">
+                                    <input type="hidden" name="id" value="<?= $reg['id'] ?>">
+                                    <button type="submit" class="action-btn" style="background: rgba(239, 68, 68, 0.1); color: var(--danger); border: 1px solid var(--danger-glow);">Delete</button>
+                                </form>
                             </div>
                         </div>
 

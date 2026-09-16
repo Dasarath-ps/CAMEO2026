@@ -19,7 +19,7 @@
         <div id="events-carousel" class="events-carousel flex gap-6 px-[10vw] overflow-x-auto snap-x snap-mandatory hide-scrollbar cursor-grab active:cursor-grabbing pb-12 pt-8">
 
             <!-- Card 1 -->
-            <a href="events/treasurehunt.php">
+            <a href="events/treasure">
                 <div class="event-card snap-center shrink-0 relative group rounded-2xl overflow-hidden border border-white/10 bg-black/40 backdrop-blur-md transition-all duration-500 hover:border-valorant-red/80 hover:shadow-[0_0_30px_rgba(255,70,85,0.4)] hover:-translate-y-2">
                     <div class="absolute inset-0 z-0">
                         <img src="images/Events/treasure/poster.jpeg" alt="TREASUREHUNT" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700">

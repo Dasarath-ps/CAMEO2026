@@ -6,6 +6,7 @@ $isFull = $count >= MAX_REGISTRATIONS;
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +17,7 @@ $isFull = $count >= MAX_REGISTRATIONS;
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="static/style.css">
 </head>
+
 <body>
   <div class="noise"></div>
   <header class="navbar">
@@ -102,7 +104,11 @@ $isFull = $count >= MAX_REGISTRATIONS;
           <div><small>TEAM SIZE</small><b>2–4 MEMBERS</b></div>
         </div>
       </div>
-      <div class="hero-orb"><div class="orb-ring r1"></div><div class="orb-ring r2"></div><div class="orb-core">NX</div></div>
+      <div class="hero-orb">
+        <div class="orb-ring r1"></div>
+        <div class="orb-ring r2"></div>
+        <div class="orb-core">NX</div>
+      </div>
     </section>
 
     <section class="section" id="about">
@@ -162,22 +168,89 @@ $isFull = $count >= MAX_REGISTRATIONS;
 
     <section class="section" id="timeline">
       <div class="section-label">03 / TIMELINE</div>
-      <div class="section-heading"><h2>24 hours.<br><span>One journey.</span></h2></div>
+      <div class="section-heading">
+        <h2>24 hours.<br><span>One journey.</span></h2>
+      </div>
       <div class="timeline">
-        <div class="time-item"><time>02:00 PM</time><div><h3>Inauguration &amp; Check-in</h3><p>Inauguration, registration verification, ID verification, participant check-in and venue entry.</p></div></div>
-        <div class="time-item active"><time>02:30 PM</time><div><h3>Development Begins</h3><p>Teams begin developing their projects. The 24-hour clock starts.</p></div></div>
-        <div class="time-item"><time>03:30 PM</time><div><h3>Final Team Verification</h3><p>Last opportunity for verification. Late teams will not be permitted to join.</p></div></div>
-        <div class="time-item"><time>06:00 PM</time><div><h3>Snack Break</h3></div></div>
-        <div class="time-item"><time>09:00 PM</time><div><h3>Dinner</h3></div></div>
-        <div class="time-item"><time>11:00 PM</time><div><h3>Tea Break</h3></div></div>
-        <div class="time-item"><time>OVERNIGHT</time><div><h3>Keep Building</h3><p>Teams continue development, testing and refinement through the night.</p></div></div>
-        <div class="time-item"><time>07:00 AM</time><div><h3>Tea Break</h3></div></div>
-        <div class="time-item active"><time>08:00 AM</time><div><h3>Round 1 — Evaluation</h3><p>Judges evaluate the projects. The best 9 teams qualify for the presentation round — 3 from each theme.</p></div></div>
-        <div class="time-item"><time>09:00 AM</time><div><h3>Breakfast</h3></div></div>
-        <div class="time-item active"><time>10:00 AM</time><div><h3>Round 1 Results</h3><p>Qualifying teams are announced.</p></div></div>
-        <div class="time-item"><time>10:00 AM – 12:00 PM</time><div><h3>Presentation Preparation</h3><p>Selected teams finalize their PPT and prepare their presentation.</p></div></div>
-        <div class="time-item active"><time>12:00 PM – 01:30 PM</time><div><h3>Final Presentation Round</h3><p>Selected teams present their projects before the judging panel.</p></div></div>
-        <div class="time-item final"><time>02:00 PM</time><div><h3>Winners &amp; Valedictory</h3><p>Winner announcement, prize distribution and closing ceremony.</p></div></div>
+        <div class="time-item"><time>02:00 PM</time>
+          <div>
+            <h3>Inauguration &amp; Check-in</h3>
+            <p>Inauguration, registration verification, ID verification, participant check-in and venue entry.</p>
+          </div>
+        </div>
+        <div class="time-item active"><time>02:30 PM</time>
+          <div>
+            <h3>Development Begins</h3>
+            <p>Teams begin developing their projects. The 24-hour clock starts.</p>
+          </div>
+        </div>
+        <div class="time-item"><time>03:30 PM</time>
+          <div>
+            <h3>Final Team Verification</h3>
+            <p>Last opportunity for verification. Late teams will not be permitted to join.</p>
+          </div>
+        </div>
+        <div class="time-item"><time>06:00 PM</time>
+          <div>
+            <h3>Snack Break</h3>
+          </div>
+        </div>
+        <div class="time-item"><time>09:00 PM</time>
+          <div>
+            <h3>Dinner</h3>
+          </div>
+        </div>
+        <div class="time-item"><time>11:00 PM</time>
+          <div>
+            <h3>Tea Break</h3>
+          </div>
+        </div>
+        <div class="time-item"><time>OVERNIGHT</time>
+          <div>
+            <h3>Keep Building</h3>
+            <p>Teams continue development, testing and refinement through the night.</p>
+          </div>
+        </div>
+        <div class="time-item"><time>07:00 AM</time>
+          <div>
+            <h3>Tea Break</h3>
+          </div>
+        </div>
+        <div class="time-item active"><time>08:00 AM</time>
+          <div>
+            <h3>Round 1 — Evaluation</h3>
+            <p>Judges evaluate the projects. The best 9 teams qualify for the presentation round — 3 from each theme.</p>
+          </div>
+        </div>
+        <div class="time-item"><time>09:00 AM</time>
+          <div>
+            <h3>Breakfast</h3>
+          </div>
+        </div>
+        <div class="time-item active"><time>10:00 AM</time>
+          <div>
+            <h3>Round 1 Results</h3>
+            <p>Qualifying teams are announced.</p>
+          </div>
+        </div>
+        <div class="time-item"><time>10:00 AM – 12:00 PM</time>
+          <div>
+            <h3>Presentation Preparation</h3>
+            <p>Selected teams finalize their PPT and prepare their presentation.</p>
+          </div>
+        </div>
+        <div class="time-item active"><time>12:00 PM – 01:30 PM</time>
+          <div>
+            <h3>Final Presentation Round</h3>
+            <p>Selected teams present their projects before the judging panel.</p>
+          </div>
+        </div>
+        <div class="time-item final"><time>02:00 PM</time>
+          <div>
+            <h3>Winners &amp; Valedictory</h3>
+            <p>Winner announcement, prize distribution and closing ceremony.</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -219,17 +292,39 @@ $isFull = $count >= MAX_REGISTRATIONS;
           <h2>Play fair.<br><span>Build original.</span></h2>
         </div>
         <div class="rule-list">
-          <div><b>01</b><p>Each team must have 2 to 4 participants.</p></div>
-          <div><b>02</b><p>The event is open to UG, PG, diploma students and B.Tech Students. Members may be from different branches, years or institutions.</p></div>
-          <div><b>03</b><p>No team member changes are permitted after registration.</p></div>
-          <div><b>04</b><p>Participants must be currently enrolled and carry a valid college ID card.</p></div>
-          <div><b>05</b><p>Core development work must be completed within the official 24-hour event period.</p></div>
-          <div><b>06</b><p>Plagiarism, unauthorized code copying or undisclosed reuse of existing solutions is strictly prohibited.</p></div>
-          <div><b>07</b><p>AI tools, frameworks, libraries and APIs are allowed, but their use must be clearly disclosed in the documentation.</p></div>
-          <div><b>08</b><p>Professional, respectful and responsible conduct is expected throughout the event.</p></div>
-          <div><b>09</b><p>Any violation of the rules or code of conduct may result in immediate disqualification.</p></div>
-          <div><b>10</b><p>Each team should bring its own extension board/power strip. The college will provide a maximum of 1–2 power outlets per team.</p></div>
-          <div><b>11</b><p><strong>Topic Participation:</strong> Each topic must have a minimum of 5 registered teams to be conducted. If fewer than 5 teams register for a topic, the participating teams will be given the option to select one of the other two available topics.</p></div>
+          <div><b>01</b>
+            <p>Each team must have 2 to 4 participants.</p>
+          </div>
+          <div><b>02</b>
+            <p>The event is open to UG, PG, diploma students and B.Tech Students. Members may be from different branches, years or institutions.</p>
+          </div>
+          <div><b>03</b>
+            <p>No team member changes are permitted after registration.</p>
+          </div>
+          <div><b>04</b>
+            <p>Participants must be currently enrolled and carry a valid college ID card.</p>
+          </div>
+          <div><b>05</b>
+            <p>Core development work must be completed within the official 24-hour event period.</p>
+          </div>
+          <div><b>06</b>
+            <p>Plagiarism, unauthorized code copying or undisclosed reuse of existing solutions is strictly prohibited.</p>
+          </div>
+          <div><b>07</b>
+            <p>AI tools, frameworks, libraries and APIs are allowed, but their use must be clearly disclosed in the documentation.</p>
+          </div>
+          <div><b>08</b>
+            <p>Professional, respectful and responsible conduct is expected throughout the event.</p>
+          </div>
+          <div><b>09</b>
+            <p>Any violation of the rules or code of conduct may result in immediate disqualification.</p>
+          </div>
+          <div><b>10</b>
+            <p>Each team should bring its own extension board/power strip. The college will provide a maximum of 1–2 power outlets per team.</p>
+          </div>
+          <div><b>11</b>
+            <p><strong>Topic Participation:</strong> Each topic must have a minimum of 5 registered teams to be conducted. If fewer than 5 teams register for a topic, the participating teams will be given the option to select one of the other two available topics.</p>
+          </div>
 
         </div>
       </div>
@@ -322,139 +417,145 @@ $isFull = $count >= MAX_REGISTRATIONS;
           <div class="registration-full-message" style="text-align: center; padding: 40px; background: rgba(255,255,255,0.05); border-radius: 12px; margin-top: 20px; border: 1px solid rgba(255,255,255,0.1);">
             <h3 style="color: #ff6b6b; font-size: 1.5rem; margin-bottom: 10px;">Registration is Full</h3>
             <p style="color: #a1a1aa; line-height: 1.5;">Registrations are currently full. The maximum limit of participants has been reached.
-Contact the Student Coordinators to check if any additional slots are available.</p>
+              Contact the Student Coordinators to check if any additional slots are available.</p>
           </div>
         <?php else: ?>
-        <form id="registrationForm">
-          <div class="form-grid">
-            <input name="team_name" placeholder="Team Name *" required>
-            <input name="leader_name" placeholder="Team Leader *" required>
-            <input name="email" type="email" placeholder="Email *" required>
-            <input name="phone" placeholder="Phone *" required>
-            <input name="college" placeholder="College / Institution *" required>
-            <select name="theme" required>
-              <option value="">Select Topic *</option>
-              <option>Retail & E-Commerce</option>
-              <option>Climate & Energy</option>
-              <option>Education & Workforce</option>
-            </select>
-            <select name="team_size" id="teamSize" required>
-              <option value="">Number of Participants *</option>
-              <option value="2">2 Participants — ₹400</option>
-              <option value="3">3 Participants — ₹600</option>
-              <option value="4">4 Participants — ₹800</option>
-            </select>
-            <input name="member2" id="member2" placeholder="Member 2 *" required>
-            <input name="member3" id="member3" placeholder="Member 3 *" class="member-extra" disabled>
-            <input name="member4" id="member4" placeholder="Member 4 *" class="member-extra" disabled>
-          </div>
-
-          <div class="fee-preview">
-            <div>
-              <small>REGISTRATION FEE</small>
-              <strong>₹<span id="feeAmount">400</span></strong>
-            </div>
-            <div>
-              <small>PER PARTICIPANT</small>
-              <strong>₹200</strong>
-            </div>
-          </div>
-
-          <label class="consent"><input type="checkbox" required> I confirm that the information provided is accurate and I agree to the hackathon rules.</label>
-          <button class="primary-btn" type="submit" id="continuePaymentBtn">CONTINUE TO PAYMENT <span>→</span></button>
-          <p id="formMessage" class="form-message"></p>
-        </form>
-
-        <div id="paymentStep" class="payment-step" hidden>
-          <div class="payment-header">
-            <p class="payment-kicker">02 / PAYMENT</p>
-            <h3>Complete your<br><span>registration.</span></h3>
-            <p>Scan the QR code below to pay the registration fee. After payment, upload the payment screenshot on this page.</p>
-          </div>
-
-          <div class="payment-card">
-            <div class="payment-row">
-              <span>Participants</span>
-              <strong id="paymentTeamSize">2</strong>
-            </div>
-            <div class="payment-row">
-              <span>Fee per participant</span>
-              <strong>₹200</strong>
-            </div>
-            <div class="payment-total">
-              <span>Total registration fee</span>
-              <strong>₹<span id="paymentAmount">400</span></strong>
-            </div>
-          </div>
-
-          <div class="qr-payment-box">
-            <div class="qr-heading">
-              <small>SCAN &amp; PAY</small>
-              <h4>Pay ₹<span id="qrAmount">400</span></h4>
-              <p id="qrInstruction">Scan the QR code to complete your payment.</p>
+          <form id="registrationForm">
+            <div class="form-grid">
+              <input name="team_name" placeholder="Team Name *" required>
+              <input name="leader_name" placeholder="Team Leader *" required>
+              <input name="email" type="email" placeholder="Email *" required>
+              <input name="phone" placeholder="Phone *" required>
+              <input name="college" placeholder="College / Institution *" required>
+              <select name="theme" required>
+                <option value="">Select Topic *</option>
+                <option>Retail & E-Commerce</option>
+                <option>Climate & Energy</option>
+                <option>Education & Workforce</option>
+              </select>
+              <select name="college_confirm" id="collegeConfirm" required>
+                <option value="">Confirm You are not in Nirmala College Muvatupuzha</option>
+                <option value="Other">Other College</option>
+                <option value="Nirmala College">Nirmala College Muvatupuzha</option>
+              </select>
+              <select name="team_size" id="teamSize" required>
+                <option value="">Number of Participants *</option>
+                <option value="2">2 Participants — ₹400</option>
+                <option value="3">3 Participants — ₹600</option>
+                <option value="4">4 Participants — ₹800</option>
+              </select>
+              <input name="member2" id="member2" placeholder="Member 2 *" required>
+              <input name="member3" id="member3" placeholder="Member 3 *" class="member-extra" disabled>
+              <input name="member4" id="member4" placeholder="Member 4 *" class="member-extra" disabled>
             </div>
 
-            <div class="qr-frame">
-              <img id="paymentQr" src="payment_qr/qr_400.png" alt="Payment QR code for ₹400" loading="lazy">
-              <div id="qrMissing" class="qr-missing" hidden>
+            <div class="fee-preview">
+              <div>
+                <small>REGISTRATION FEE</small>
+                <strong>₹<span id="feeAmount">400</span></strong>
+              </div>
+              <div>
+                <small>PER PARTICIPANT</small>
+                <strong>₹200</strong>
               </div>
             </div>
 
-            <p class="qr-note">Please pay the exact amount shown above.</p>
-          </div>
+            <label class="consent"><input type="checkbox" required> I confirm that the information provided is accurate and I agree to the hackathon rules.</label>
+            <p id="nirmalaWarning" style="display: none; color: #ff6b6b; margin-bottom: 15px; font-weight: 500;">Inter department is not allowed</p>
+            <button class="primary-btn" type="submit" id="continuePaymentBtn">CONTINUE TO PAYMENT <span>→</span></button>
+            <p id="formMessage" class="form-message"></p>
+          </form>
 
-          <div class="upload-payment-box">
-            <div>
-              <small>AFTER PAYMENT</small>
-              <h4>Upload payment screenshot</h4>
-              <p>Upload a clear screenshot showing your successful payment. JPG, PNG or WEBP • Max 5 MB.</p>
+          <div id="paymentStep" class="payment-step" hidden>
+            <div class="payment-header">
+              <p class="payment-kicker">02 / PAYMENT</p>
+              <h3>Complete your<br><span>registration.</span></h3>
+              <p>Scan the QR code below to pay the registration fee. After payment, upload the payment screenshot on this page.</p>
             </div>
 
-            <input type="file" id="paymentScreenshot" accept="image/jpeg,image/png,image/webp" hidden>
-            <label class="upload-label" for="paymentScreenshot">
-              <span>CHOOSE SCREENSHOT</span>
-              <strong id="fileName">No file selected</strong>
-            </label>
-
-            <button class="primary-btn upload-btn" type="button" id="uploadPaymentBtn">UPLOAD PAYMENT SCREENSHOT <span>↗</span></button>
-            <p id="paymentMessage" class="form-message"></p>
-          </div>
-
-          <button class="back-btn" type="button" id="backToDetailsBtn">← BACK TO DETAILS</button>
-        </div>
-
-        <div id="whatsappStep" class="whatsapp-step" hidden>
-          <div class="whatsapp-success">
-            <div class="success-mark">✓</div>
-            <p class="payment-kicker">03 / REGISTRATION COMPLETE</p>
-            <h3>You're almost<br><span>there.</span></h3>
-            <p>Your payment screenshot has been submitted successfully. Join the official Nexyra WhatsApp group using the QR code or the button below.</p>
-          </div>
-
-          <div class="whatsapp-card">
-            <div class="whatsapp-title">
-              <small>OFFICIAL WHATSAPP GROUP</small>
-              <h4>Nexyra Hackathon participation</h4>
+            <div class="payment-card">
+              <div class="payment-row">
+                <span>Participants</span>
+                <strong id="paymentTeamSize">2</strong>
+              </div>
+              <div class="payment-row">
+                <span>Fee per participant</span>
+                <strong>₹200</strong>
+              </div>
+              <div class="payment-total">
+                <span>Total registration fee</span>
+                <strong>₹<span id="paymentAmount">400</span></strong>
+              </div>
             </div>
 
-            <div class="whatsapp-qr-frame">
-              <img src="whatsapp_group/group_qr.png" alt="Nexyra Hackathon participation WhatsApp group QR code" loading="lazy">
+            <div class="qr-payment-box">
+              <div class="qr-heading">
+                <small>SCAN &amp; PAY</small>
+                <h4>Pay ₹<span id="qrAmount">400</span></h4>
+                <p id="qrInstruction">Scan the QR code to complete your payment.</p>
+              </div>
+
+              <div class="qr-frame">
+                <img id="paymentQr" src="payment_qr/qr_400.png" alt="Payment QR code for ₹400" loading="lazy">
+                <div id="qrMissing" class="qr-missing" hidden>
+                </div>
+              </div>
+
+              <p class="qr-note">Please pay the exact amount shown above.</p>
             </div>
 
-            <p class="whatsapp-private-note">Scan this QR code with WhatsApp to join the group.</p>
+            <div class="upload-payment-box">
+              <div>
+                <small>AFTER PAYMENT</small>
+                <h4>Upload payment screenshot</h4>
+                <p>Upload a clear screenshot showing your successful payment. JPG, PNG or WEBP • Max 5 MB.</p>
+              </div>
 
-            <a class="whatsapp-join-btn" href="https://chat.whatsapp.com/JCElzK4gv4G86je7X5f4Cz" target="_blank" rel="noopener noreferrer">
-              JOIN WHATSAPP GROUP ↗
-            </a>
+              <input type="file" id="paymentScreenshot" accept="image/jpeg,image/png,image/webp" hidden>
+              <label class="upload-label" for="paymentScreenshot">
+                <span>CHOOSE SCREENSHOT</span>
+                <strong id="fileName">No file selected</strong>
+              </label>
 
-            <div class="whatsapp-link-box">
-              <small>GROUP LINK</small>
-              <span>https://chat.whatsapp.com/JCElzK4gv4G86je7X5f4Cz</span>
+              <button class="primary-btn upload-btn" type="button" id="uploadPaymentBtn">UPLOAD PAYMENT SCREENSHOT <span>↗</span></button>
+              <p id="paymentMessage" class="form-message"></p>
             </div>
+
+            <button class="back-btn" type="button" id="backToDetailsBtn">← BACK TO DETAILS</button>
           </div>
 
-          <p class="whatsapp-note"><strong>Important:</strong> Your payment screenshot will be verified by the organizers. Please keep your payment proof safely until verification is complete.</p>
-        </div>
+          <div id="whatsappStep" class="whatsapp-step" hidden>
+            <div class="whatsapp-success">
+              <div class="success-mark">✓</div>
+              <p class="payment-kicker">03 / REGISTRATION COMPLETE</p>
+              <h3>You're almost<br><span>there.</span></h3>
+              <p>Your payment screenshot has been submitted successfully. Join the official Nexyra WhatsApp group using the QR code or the button below.</p>
+            </div>
+
+            <div class="whatsapp-card">
+              <div class="whatsapp-title">
+                <small>OFFICIAL WHATSAPP GROUP</small>
+                <h4>Nexyra Hackathon participation</h4>
+              </div>
+
+              <div class="whatsapp-qr-frame">
+                <img src="whatsapp_group/group_qr.png" alt="Nexyra Hackathon participation WhatsApp group QR code" loading="lazy">
+              </div>
+
+              <p class="whatsapp-private-note">Scan this QR code with WhatsApp to join the group.</p>
+
+              <a class="whatsapp-join-btn" href="https://chat.whatsapp.com/JCElzK4gv4G86je7X5f4Cz" target="_blank" rel="noopener noreferrer">
+                JOIN WHATSAPP GROUP ↗
+              </a>
+
+              <div class="whatsapp-link-box">
+                <small>GROUP LINK</small>
+                <span>https://chat.whatsapp.com/JCElzK4gv4G86je7X5f4Cz</span>
+              </div>
+            </div>
+
+            <p class="whatsapp-note"><strong>Important:</strong> Your payment screenshot will be verified by the organizers. Please keep your payment proof safely until verification is complete.</p>
+          </div>
         <?php endif; ?>
       </div>
     </section>
@@ -483,5 +584,25 @@ Contact the Student Coordinators to check if any additional slots are available.
     <a href="#home">BACK TO TOP ↑</a>
   </footer>
   <script src="static/script.js?v=manualqr2" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const collegeConfirm = document.getElementById('collegeConfirm');
+      const continuePaymentBtn = document.getElementById('continuePaymentBtn');
+      const nirmalaWarning = document.getElementById('nirmalaWarning');
+
+      if (collegeConfirm && continuePaymentBtn && nirmalaWarning) {
+        collegeConfirm.addEventListener('change', function() {
+          if (this.value === 'Nirmala College') {
+            continuePaymentBtn.style.display = 'none';
+            nirmalaWarning.style.display = 'block';
+          } else {
+            continuePaymentBtn.style.display = '';
+            nirmalaWarning.style.display = 'none';
+          }
+        });
+      }
+    });
+  </script>
 </body>
+
 </html>
