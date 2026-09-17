@@ -205,6 +205,16 @@ nav a:hover::after {
   gap: 0;
 }
 
+.fixed-logo {
+  position: fixed;
+  top: 30%;
+  left: 10vw;
+  max-width: 80vw;
+  height: auto;
+  z-index: 50;
+  pointer-events: none;
+}
+
 /* Logo-A image inside the giant hero title */
 .hero-title .logo-a {
   display: flex;

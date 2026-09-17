@@ -240,7 +240,7 @@
             <img src="payment_qr/qr1.jpeg" alt="Payment QR Code" class="qr-code">
             <p style="margin-top: 10px; font-family: var(--font-body); color: var(--valo-light);">UPI: technova@ybl</p>
           </div>
-
+          
           <div class="form-container">
             <h4 class="text-red">FINAL STEP: TRANSMIT DATA</h4>
             <p>Upload your payment screenshot and participant details to the central mainframe.</p>

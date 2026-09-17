@@ -34,7 +34,7 @@
         <section class="main-content">
             <!-- Hero Section -->
             <section id="home" class="hero w-screen h-screen pt-32">
-                <h1 class="hero-title  tech-font " data-text="CAMEO'2.0">C<img src="images/heroSection/logo-a.png" class="logo-a" alt="A" aria-label="A">MEO<span class="text-valorant-red ml-5">2.O</span></h1>
+                <h1 class="hero-title valorant-font" data-text="CAMEO'2.0">C<img src="images/heroSection/logo-a.png" class="logo-a" alt="A" aria-label="A">MEO<span class="text-valorant-red ml-5">2.O</span></h1>
 
                 <p class="hero-subtitle tech-font">
                     DECODE. <span>DEFY.</span> DISRUPT.<br>

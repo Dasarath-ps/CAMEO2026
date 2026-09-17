@@ -266,11 +266,6 @@
             I confirm I am not a student of Nirmala College Muvattupuzha
           </label>
 
-          <label class="cyber-checkbox-label" style="margin-bottom: 15px;">
-            <input type="checkbox" name="engg_college_confirm" id="enggCollegeConfirm" value="Other" required>
-            <span class="checkmark"></span>
-            I confirm I am not a student of an Engineering College
-          </label>
 
           <label class="cyber-checkbox-label">
             <input type="checkbox" id="paymentAcknowledge">

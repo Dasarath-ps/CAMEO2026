@@ -90,7 +90,7 @@
         <div>
           <p class="hero-sub">// CLUE SEQUENCE INITIATED. COMMENCE SEARCH.</p>
           <h1 class="glitch-effect" data-text="TREASURE HUNT">TREASURE HUNT</h1>
-          <h2 class="text-cyan">SEPTEMBER 24 | VENUE: 206, 207, 208</h2>
+          <h2 class="text-cyan">SEPTEMBER 25 | VENUE: 206, 207, 208</h2>
 
           <p class="hero-sub" style="margin-top: 2rem;">
             Follow the trail, solve the puzzles, and claim the ultimate prize. Your intellect and speed will be tested.
@@ -135,7 +135,7 @@
           </div>
           <div class="terminal-body">
             <p><span class="prompt">root@cam:~#</span> cat manifest.txt</p>
-            <p>TREASURE HUNT is an exhilarating puzzle-solving event happening on <span class="highlight">September 24</span> starting at Venues 206, 207, and 208.</p>
+            <p>TREASURE HUNT is an exhilarating puzzle-solving event happening on <span class="highlight">September 25</span> starting at Venues 206, 207, and 208.</p>
             <p>Teams of 4 will race against time, cracking QR codes and physical clues in a strict sequence.</p>
             <p>Only the sharpest minds will reach the final destination and claim the ₹10000 bounty.</p>
           </div>
@@ -194,7 +194,7 @@
               <li style="margin-bottom: 8px;">All participants must carry their valid college ID card and present it when required.</li>
               <li style="margin-bottom: 8px;">Clues must be solved in the given order. Skipping clues is strictly prohibited.</li>
               <li style="margin-bottom: 8px;">The event will start promptly at 10:30 AM, regardless of other schedules or delays.</li>
-              <li style="margin-bottom: 8px;">Participants must report and complete registration before <span class="highlight">9:30 AM on 24 September 2026</span>. Late arrivals may be disqualified.</li>
+              <li style="margin-bottom: 8px;">Participants must report and complete registration before <span class="highlight">9:30 AM on 25 September 2026</span>. Late arrivals may be disqualified.</li>
               <li style="margin-bottom: 8px;">Teams are not permitted to communicate or collaborate with other teams during the competition.</li>
               <li style="margin-bottom: 8px;">The use of mobile phones, the Internet, or any form of outside assistance is strictly prohibited.</li>
               <li style="margin-bottom: 8px;">Participants must not damage, move, hide, alter, or tamper with any clue, QR code, marker, property, or event material.</li>
@@ -260,11 +260,6 @@
             I confirm I am not a student of Nirmala College Muvattupuzha
           </label>
 
-          <label class="cyber-checkbox-label" style="margin-bottom: 15px;">
-            <input type="checkbox" name="engg_college_confirm" id="enggCollegeConfirm" value="Other" required>
-            <span class="checkmark"></span>
-            I confirm I am not a student of an Engineering College
-          </label>
 
           <label class="cyber-checkbox-label">
             <input type="checkbox" id="paymentAcknowledge">

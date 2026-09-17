@@ -9,7 +9,7 @@ define('DB_PORT', 3306);
 define('DB_NAME', 'nirmalac_cameo');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('MAX_REGISTRATIONS', 30);
+define('MAX_REGISTRATIONS', 33);
 
 function getDbConnection(): PDO {
     static $pdo = null;
