@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
       this.vx = (Math.random() - 0.5) * 2;
       this.vy = (Math.random() - 0.5) * 2;
       this.size = Math.random() * 3 + 1;
-      this.color = Math.random() > 0.5 ? "#d32f2f" : "#d4af37";
+      this.color = Math.random() > 0.5 ? "#ff003c" : "#00e5ff";
     }
 
     update() {

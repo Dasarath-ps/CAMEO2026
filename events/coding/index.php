@@ -136,6 +136,10 @@
             <p>Stack Attack is a speed and algorithmic coding competition running on <span class="highlight">September 25</span>.</p>
             <p>Coders compete across <span class="highlight">3 elimination rounds</span> testing syntax speed, logical debugging, and algorithmic optimization.</p>
             <p>All submissions are graded by automated sandboxed test runners — speed and correctness both count. Defy the limits.</p>
+            <br>
+            <p class="highlight" style="margin-bottom: 5px;">// COORDINATORS</p>
+            <p>Staff Coordinator: Ms. Pooja Ashual</p>
+            <p>Student Coordinator: Devanandan C S (+91 7736232925)</p>
           </div>
         </div>
       </div>
@@ -186,15 +190,16 @@
           </div>
           <div class="terminal-body">
             <ul style="list-style-type: square; margin-left: 20px;">
-              <li style="margin-bottom: 8px;">Students from Nirmala College are not eligible to participate.</li>
+              <li style="margin-bottom: 8px;">Students from Nirmala College Muvattupuzha (Autonomous) are not eligible to participate in the event.</li>
+              <li style="margin-bottom: 8px;">A valid College ID Card is mandatory for all participants and must be presented when required.</li>
+              <li style="margin-bottom: 8px;">Minimum Participation: A minimum of 5 teams is required for the event to be conducted. If not met, the event will be cancelled and the fee fully refunded.</li>
               <li style="margin-bottom: 8px;">Each team must consist of exactly 2 members.</li>
-              <li style="margin-bottom: 8px;">All participants must report before <span class="highlight">10:00 AM</span>.</li>
-              <li style="margin-bottom: 8px;">Programming languages allowed: <span class="text-cyan">C, C++ and Java</span>.</li>
-              <li style="margin-bottom: 8px;">Registration fees are non-refundable once registration is completed.</li>
-              <li style="margin-bottom: 8px;">Discussion between participants is strictly prohibited during the event.</li>
-              <li style="margin-bottom: 8px;">Mobile phones, internet access, and any form of outside help are strictly prohibited.</li>
-              <li style="margin-bottom: 8px;">The judges' decision will be final and binding.</li>
-              <li style="margin-bottom: 8px;">A valid College ID Card is mandatory for all participants.</li>
+              <li style="margin-bottom: 8px;">The registration fee is ₹400 per team. Spot registration will close at 9:30 AM.</li>
+              <li style="margin-bottom: 8px;">Participants may use <span class="text-cyan">C, C++, or Java</span> only.</li>
+              <li style="margin-bottom: 8px;">If the event is conducted, the registration fee is non-refundable.</li>
+              <li style="margin-bottom: 8px;">Discussion or communication between participants/teams is strictly prohibited during the event.</li>
+              <li style="margin-bottom: 8px;">The use of mobile phones, the internet, or any form of external assistance is strictly prohibited.</li>
+              <li style="margin-bottom: 8px;">The decision of the judges will be final and binding. No appeals or disputes regarding the results will be entertained.</li>
             </ul>
           </div>
         </div>
@@ -280,7 +285,7 @@
       <div class="wrap">
         <div class="section-head">
           <h2 class="glitch-effect text-red" data-text="05 // SECURE ACCESS">05 // SECURE ACCESS</h2>
-          <p>₹200 per participant. Payment required to confirm registration.</p>
+          <p>₹400 per team. Payment required to confirm registration.</p>
         </div>
 
         <div class="notice-box">
@@ -304,7 +309,7 @@
           <div class="qr-container">
             <h4 class="text-cyan">SCAN TO PAY ₹200</h4>
             <!-- Placeholder for actual QR code image -->
-            <img src="payment_qr/devan.jpeg" alt="Payment QR Code Placeholder" class="qr-code">
+            <img src="payment_qr/qr1.jpeg" alt="Payment QR Code Placeholder" class="qr-code">
             <p style="margin-top: 10px; font-family: var(--font-body); color: var(--valo-light);">UPI: technova@ybl</p>
           </div>
 

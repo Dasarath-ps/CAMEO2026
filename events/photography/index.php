@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FRAMEOFF // REELS COMPETITION</title>
-  <meta name="description" content="FRAMEOFF — Reel Making Competition.">
+  <title>GLITCH // PHOTOGRAPHY EVENT</title>
+  <meta name="description" content="GLITCH — Capture the aesthetic.">
   <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
 </head>
 
@@ -19,10 +19,9 @@
   <!-- Navbar -->
   <header class="navbar">
     <div class="wrap">
-      <a class="brand" href="#home">FRAMEOFF</a>
+      <a class="brand" href="#home">GLITCH</a>
       <nav class="navtabs">
         <a href="#about">Overview</a>
-        <a href="#rounds">Format</a>
         <a href="#rules">Rules</a>
         <a href="#timeline">Timeline</a>
         <a href="#register" class="text-red">Register</a>
@@ -88,16 +87,17 @@
     <section class="hero" id="home">
       <div class="wrap">
         <div>
-          <p class="hero-sub">// VISUALS OVERRIDE INITIATED. START RECORDING.</p>
-          <h1 class="glitch-effect" data-text="FRAMEOFF">FRAMEOFF</h1>
-          <h2 class="text-cyan">SEPTEMBER 25 | VENUE: 108</h2>
+          <p class="hero-sub">// LENS CALIBRATED. CAPTURE THE GLITCH.</p>
+          <h1 class="glitch-effect" data-text="GLITCH">GLITCH</h1>
+          <h2 class="text-cyan">SEPTEMBER 25 | ROOM NO: 106 (MCA 1ST YR B1)</h2>
 
           <p class="hero-sub" style="margin-top: 2rem;">
-            Showcase your creativity and editing skills. Capture the essence of the theme in 60 to 90 seconds and claim the spotlight.
+            A smartphone photography showdown. Align your vision, stick to the theme, and snap the ultimate shot.
             <br><br>
-            <span class="text-red">1ST PRIZE: ₹3000</span> &nbsp;|&nbsp;
-            <span class="text-cyan">2ND PRIZE: ₹2000</span> &nbsp;|&nbsp;
-            <span class="text-yellow">TOP 6: CERTIFICATES</span>
+            <span class="text-red">1ST PRIZE: ₹2000</span> &nbsp;|&nbsp;
+            <span class="text-cyan">2ND PRIZE: ₹1000</span>
+            <br>
+            <span class="text-yellow" style="font-size: 0.9em; margin-top: 5px; display: inline-block;">CERTIFICATES FOR 1ST AND 2ND PLACE</span>
           </p>
 
           <div class="hero-actions">
@@ -108,14 +108,14 @@
 
         <div class="stack-panel">
           <div class="stack-panel-head">
-            // RECORD.TRACE
+            // EVENT.TRACE
           </div>
           <div class="stack-visual">
-            <div class="stack-frame champion">CHAMPION<span>()</span> &larr; AWARDED</div>
+            <div class="stack-frame champion">WINNER<span>()</span> &larr; AWARDED</div>
             <div class="stack-frame">EVALUATE<span>()</span></div>
-            <div class="stack-frame">EDIT<span>()</span></div>
-            <div class="stack-frame">SHOOT<span>()</span></div>
-            <div class="stack-frame">CONCEPT<span>()</span></div>
+            <div class="stack-frame">SUBMIT<span>()</span></div>
+            <div class="stack-frame">CAPTURE<span>()</span></div>
+            <div class="stack-frame">THEME_REVEAL<span>()</span></div>
           </div>
         </div>
       </div>
@@ -133,43 +133,14 @@
             <span class="dot"></span>
             <span class="dot"></span>
             <span class="dot"></span>
-            <span style="margin-left: 10px; color: var(--border-cyan); font-family: var(--font-body);">MANIFEST.MP4</span>
+            <span style="margin-left: 10px; color: var(--border-cyan); font-family: var(--font-body);">MANIFEST.JPEG</span>
           </div>
           <div class="terminal-body">
-            <p><span class="prompt">root@cam:~#</span> play manifest.mp4</p>
-            <p>FRAMEOFF is a fast-paced reel making competition on <span class="highlight">September 25</span> at <span class="highlight">Venue 108</span>.</p>
-            <p>Participants will create a captivating video (<span class="highlight">60 to 90 seconds</span>) based on a topic announced on the spot.</p>
-            <p>Creativity, transitions, and audio sync are paramount. Only the most aesthetic frame survives.</p>
+            <p><span class="prompt">root@cam:~#</span> open manifest.jpeg</p>
+            <p>GLITCH is a <span class="highlight">smartphone-only</span> individual photography competition.</p>
+            <p>Participants will be given a specific theme on the spot and must capture original, unedited photos that best represent it.</p>
+            <p>No AI, no edits, no filters. Pure raw perspective.</p>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Rounds -->
-    <section id="rounds">
-      <div class="wrap">
-        <div class="section-head">
-          <h2 class="glitch-effect" data-text="02 // THE PHASES">02 // THE PHASES</h2>
-        </div>
-
-        <div class="frames">
-          <article class="frame-card" data-depth="1">
-            <span class="frame-tag">09:30 AM</span>
-            <h3 class="text-light">PHASE 1: THEME & SHOOT</h3>
-            <p>The topic is announced. Explore the campus, find the best angles, and capture raw footage.</p>
-          </article>
-
-          <article class="frame-card" data-depth="2">
-            <span class="frame-tag" style="color: var(--cyber-yellow)">9:16 MP4</span>
-            <h3 class="text-cyan">PHASE 2: EDITING</h3>
-            <p>Slice, color-grade, and sync your footage. All content must be 100% original.</p>
-          </article>
-
-          <article class="frame-card" data-depth="3">
-            <span class="frame-tag" style="color: var(--valo-red)">60-90 SEC</span>
-            <h3 class="text-red">PHASE 3: SUBMISSION</h3>
-            <p>Submit directly to the coordinators before 2:00 PM. No late submissions accepted.</p>
-          </article>
         </div>
       </div>
     </section>
@@ -178,7 +149,7 @@
     <section id="rules">
       <div class="wrap">
         <div class="section-head">
-          <h2 class="glitch-effect text-yellow" data-text="03 // RULES & REGS">03 // RULES & REGS</h2>
+          <h2 class="glitch-effect text-yellow" data-text="02 // RULES & REGS">02 // RULES & REGS</h2>
         </div>
 
         <div class="terminal">
@@ -190,16 +161,15 @@
           </div>
           <div class="terminal-body">
             <ul style="list-style-type: square; margin-left: 20px;">
-              <li style="margin-bottom: 8px;">Maximum of 3 members per team.</li>
-              <li style="margin-bottom: 8px;">All content must be 100% original. Reels must be created by the participant. No copying or plagiarism is allowed.</li>
-              <li style="margin-bottom: 8px;">The topic will be announced at the beginning of the competition.</li>
-              <li style="margin-bottom: 8px;">Your reel must be between <span class="highlight">60 to 90 seconds</span> long.</li>
-              <li style="margin-bottom: 8px;">Videos must be in 9:16 format saved as MP4.</li>
-              <li style="margin-bottom: 8px;">Submit your video directly to the coordinators before <span class="highlight">2:00 PM</span>. Late submissions will not be accepted under any circumstances.</li>
-              <li style="margin-bottom: 8px;">College ID card is mandatory.</li>
-              <li style="margin-bottom: 8px;">The decision of the judging panel will be final.</li>
-              <li style="margin-bottom: 8px;">Registration Fee: ₹150 per team. Once registered, no refunds will be provided.</li>
-              <li style="margin-bottom: 8px;">If you have any doubts, contact the event coordinators.</li>
+              <li style="margin-bottom: 8px;">Each participant can submit a <span class="highlight">maximum of one entry</span>.</li>
+              <li style="margin-bottom: 8px;">Photos must be taken on a <span class="highlight">smartphone</span>.</li>
+              <li style="margin-bottom: 8px;">Photos must follow the given theme.</li>
+              <li style="margin-bottom: 8px;">Photos must be original and clicked by the participant. Copied images will lead to disqualification.</li>
+              <li style="margin-bottom: 8px;">AI generated images, editing (using any type of editing software), watermarks, and logos are <span class="highlight">strictly prohibited</span>.</li>
+              <li style="margin-bottom: 8px;">Photos must be submitted in <span class="text-cyan">JPEG / PNG / HEIF</span> formats.</li>
+              <li style="margin-bottom: 8px;">The file name should contain the participant's name and college name.</li>
+              <li style="margin-bottom: 8px;">Entries must be submitted within the time limit (which will be specified later). Late submissions will not be accepted.</li>
+              <li style="margin-bottom: 8px;">The decision made by the judges will be final.</li>
             </ul>
           </div>
         </div>
@@ -210,36 +180,29 @@
     <section id="timeline">
       <div class="wrap">
         <div class="section-head">
-          <h2 class="glitch-effect text-cyan" data-text="04 // SCHEDULE">04 // SCHEDULE</h2>
+          <h2 class="glitch-effect text-cyan" data-text="03 // SCHEDULE">03 // SCHEDULE</h2>
         </div>
 
         <div class="log">
           <div class="log-line active">
-            <span class="log-time">09:00 AM</span>
+            <span class="log-time">09:30 AM</span>
             <div class="log-body">
               <h3>REPORTING TIME</h3>
-              <p>Participants must report to Venue 108.</p>
+              <p>Check-in at Room No: 106 (MCA 1st yr B1).</p>
             </div>
           </div>
           <div class="log-line active">
-            <span class="log-time">09:30 AM</span>
+            <span class="log-time">10:30 AM</span>
             <div class="log-body">
-              <h3 class="text-red">REGISTRATION CLOSES</h3>
-              <p>No more entries will be accepted after this time.</p>
+              <h3 class="text-red">REGISTRATION CLOSES / EVENT BEGINS</h3>
+              <p>The theme is revealed and participants begin shooting.</p>
             </div>
           </div>
           <div class="log-line">
-            <span class="log-time">10:00 AM</span>
+            <span class="log-time">01:00 PM</span>
             <div class="log-body">
-              <h3 class="text-cyan">THEME ANNOUNCEMENT & SHOOTING</h3>
-              <p>The topic is revealed and the clock starts. You have until 2:00 PM to shoot and edit.</p>
-            </div>
-          </div>
-          <div class="log-line">
-            <span class="log-time">02:00 PM</span>
-            <div class="log-body">
-              <h3 class="text-yellow">SUBMISSION DEADLINE</h3>
-              <p>Submit your final cut directly to the coordinators. Late submissions are not accepted.</p>
+              <h3 class="text-yellow">EVENT CONCLUDES</h3>
+              <p>Time limit expires. Submissions close and evaluation begins.</p>
             </div>
           </div>
         </div>
@@ -250,20 +213,14 @@
     <section id="register">
       <div class="wrap">
         <div class="section-head">
-          <h2 class="glitch-effect text-red" data-text="05 // SECURE ACCESS">05 // SECURE ACCESS</h2>
-          <p>₹150 per team. Payment required to confirm registration.</p>
+          <h2 class="glitch-effect text-red" data-text="04 // SECURE ACCESS">04 // SECURE ACCESS</h2>
+          <p>₹150 per participant. Payment required to confirm registration.</p>
         </div>
 
         <div class="notice-box">
           <h3 class="text-yellow">// PAYMENT PROTOCOL</h3>
           <p>You must complete the payment via UPI to secure your spot. Keep a screenshot of your successful transaction, as it must be uploaded to our official Google Form.</p>
-          <select name="college_confirm" id="collegeConfirm" required>
-            <option value="">Confirm You are not in Nirmala College Muvatupuzha</option>
-            <option value="Other">Other College</option>
-            <option value="Nirmala College">Nirmala College Muvatupuzha</option>
-          </select>
-          <div id="nirmalaWarning" style="color: var(--valo-red); margin-top: 10px; display: none;">// ERROR: Registration is restricted for Nirmala College students.</div>
-
+          
           <label class="cyber-checkbox-label">
             <input type="checkbox" id="paymentAcknowledge">
             <span class="checkmark"></span>
@@ -281,7 +238,7 @@
           <div class="form-container">
             <h4 class="text-red">FINAL STEP: TRANSMIT DATA</h4>
             <p>Upload your payment screenshot and participant details to the central mainframe.</p>
-            <a class="btn btn-solid" href="https://docs.google.com/forms/d/e/1FAIpQLScuBRlkvWXcMF2QAzJU4AdUfQCqsgw3Z0w_1OzbQcdVWKrgcQ/viewform" target="_blank" style="margin-top: 1rem;">
+            <a class="btn btn-solid" href="https://docs.google.com/forms/d/e/1FAIpQLSfAhpOBk10nTkpB2xH-w1J0vAuYV1VreXjnMgHLiRpGOratVg/viewform?usp=publish-editor" target="_blank" style="margin-top: 1rem;">
               ACCESS_GOOGLE_FORM()
             </a>
           </div>
@@ -291,27 +248,21 @@
   </main>
 
   <footer>
-    <p>© 2026 FRAMEOFF // SYSTEM.HALT.</p>
+    <p>© 2026 GLITCH // SYSTEM.HALT.</p>
   </footer>
 
   <script src="script.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      const collegeConfirm = document.getElementById('collegeConfirm');
       const paymentAcknowledge = document.getElementById('paymentAcknowledge');
-      const nirmalaWarning = document.getElementById('nirmalaWarning');
       const paymentPortal = document.getElementById('paymentPortal');
 
-      if (collegeConfirm && paymentAcknowledge && nirmalaWarning) {
-        collegeConfirm.addEventListener('change', function() {
-          if (this.value === 'Nirmala College') {
-            paymentAcknowledge.disabled = true;
-            paymentAcknowledge.checked = false;
-            nirmalaWarning.style.display = 'block';
-            if (paymentPortal) paymentPortal.classList.add('hidden');
+      if (paymentAcknowledge && paymentPortal) {
+        paymentAcknowledge.addEventListener('change', function() {
+          if (this.checked) {
+            paymentPortal.classList.remove('hidden');
           } else {
-            paymentAcknowledge.disabled = false;
-            nirmalaWarning.style.display = 'none';
+            paymentPortal.classList.add('hidden');
           }
         });
       }

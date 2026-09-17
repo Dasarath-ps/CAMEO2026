@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Teko:wght@400;500;600;700&display=swap");
 
 :root {
-  /* Pirate's Cove Theme (Crimson & Gold) */
-  --valo-red: #d32f2f; /* Crimson Red */
-  --valo-red-glow: rgba(211, 47, 47, 0.6);
-  --valo-dark: #1a0f0f; /* Dark Red-Black */
-  --valo-darker: #0d0707; /* Near Black */
-  --valo-light: #f5ecd5; /* Parchment Off-White */
+  /* True Glitch Theme (Anaglyph Red & Blue) */
+  --valo-red: #ff003c; /* Vibrant Glitch Red */
+  --valo-red-glow: rgba(255, 0, 60, 0.6);
+  --valo-dark: #0d0f12; /* Dark Blue-Black */
+  --valo-darker: #050608; /* Near Black */
+  --valo-light: #f0f4f8; /* Crisp Off-White */
 
   /* Secondary Accents */
-  --cyber-cyan: #d4af37; /* Antique Gold */
-  --cyber-cyan-glow: rgba(212, 175, 55, 0.5);
-  --cyber-yellow: #ffeb3b; /* Bright Yellow */
+  --cyber-cyan: #00e5ff; /* Electric Cyan/Blue */
+  --cyber-cyan-glow: rgba(0, 229, 255, 0.5);
+  --cyber-yellow: #ffffff; /* Stark White for contrast */
 
   /* UI Elements */
-  --border-light: rgba(211, 47, 47, 0.15);
-  --border-cyan: rgba(212, 175, 55, 0.2);
+  --border-light: rgba(255, 0, 60, 0.15);
+  --border-cyan: rgba(0, 229, 255, 0.2);
 
   --font-head: "Teko", sans-serif;
   --font-body: "Rajdhani", sans-serif;

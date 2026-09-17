@@ -433,14 +433,9 @@ $isFull = $count >= MAX_REGISTRATIONS;
                 <option>Climate & Energy</option>
                 <option>Education & Workforce</option>
               </select>
-              <select name="college_confirm" id="collegeConfirm" required>
-                <option value="">Confirm You are not in Nirmala College Muvatupuzha</option>
-                <option value="Other">Other College</option>
-                <option value="Nirmala College">Nirmala College Muvatupuzha</option>
-              </select>
+              <label class="consent" style="margin-top: 10px; margin-bottom: 5px;"><input type="checkbox" name="college_confirm" id="collegeConfirm" value="Other" required> I confirm I am not a student of Nirmala College Muvattupuzha</label>
               <select name="team_size" id="teamSize" required>
-                <option value="">Number of Participants *</option>
-                <option value="2">2 Participants — ₹400</option>
+                <option value="2" selected>2 Participants — ₹400</option>
                 <option value="3">3 Participants — ₹600</option>
                 <option value="4">4 Participants — ₹800</option>
               </select>
@@ -461,7 +456,6 @@ $isFull = $count >= MAX_REGISTRATIONS;
             </div>
 
             <label class="consent"><input type="checkbox" required> I confirm that the information provided is accurate and I agree to the hackathon rules.</label>
-            <p id="nirmalaWarning" style="display: none; color: #ff6b6b; margin-bottom: 15px; font-weight: 500;">Inter department is not allowed</p>
             <button class="primary-btn" type="submit" id="continuePaymentBtn">CONTINUE TO PAYMENT <span>→</span></button>
             <p id="formMessage" class="form-message"></p>
           </form>
@@ -584,25 +578,7 @@ $isFull = $count >= MAX_REGISTRATIONS;
     <a href="#home">BACK TO TOP ↑</a>
   </footer>
   <script src="static/script.js?v=manualqr2" defer></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const collegeConfirm = document.getElementById('collegeConfirm');
-      const continuePaymentBtn = document.getElementById('continuePaymentBtn');
-      const nirmalaWarning = document.getElementById('nirmalaWarning');
 
-      if (collegeConfirm && continuePaymentBtn && nirmalaWarning) {
-        collegeConfirm.addEventListener('change', function() {
-          if (this.value === 'Nirmala College') {
-            continuePaymentBtn.style.display = 'none';
-            nirmalaWarning.style.display = 'block';
-          } else {
-            continuePaymentBtn.style.display = '';
-            nirmalaWarning.style.display = 'none';
-          }
-        });
-      }
-    });
-  </script>
 </body>
 
 </html>

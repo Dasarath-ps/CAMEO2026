@@ -76,7 +76,7 @@
             </a>
 
             <!-- Card 4 -->
-            <a href="events/photography.php">
+            <a href="events/photography">
                 <div class="event-card snap-center shrink-0 relative group rounded-2xl overflow-hidden border border-white/10 bg-black/40 backdrop-blur-md transition-all duration-500 hover:border-valorant-red/80 hover:shadow-[0_0_30px_rgba(255,70,85,0.4)] hover:-translate-y-2">
                     <div class="absolute inset-0 z-0">
                         <img src="images/Events/photography/poster.jpeg" alt="PHOTOGRAPHY" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700">

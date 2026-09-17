@@ -92,10 +92,7 @@ paymentQr.addEventListener('error',()=>{
 form.addEventListener('submit',async e=>{
   e.preventDefault();
   
-  const collegeConfirm = document.getElementById('collegeConfirm');
-  if (collegeConfirm && collegeConfirm.value === 'Nirmala College') {
-    return;
-  }
+
 
   msg.textContent='Saving your details...';
   msg.style.color='#111';
