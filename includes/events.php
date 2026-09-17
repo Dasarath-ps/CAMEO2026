@@ -117,7 +117,7 @@
             <a href="events/cssCoding">
                 <div class="event-card snap-center shrink-0 relative group rounded-2xl overflow-hidden border border-white/10 bg-black/40 backdrop-blur-md transition-all duration-500 hover:border-valorant-red/80 hover:shadow-[0_0_30px_rgba(255,70,85,0.4)] hover:-translate-y-2">
                     <div class="absolute inset-0 z-0">
-                        <img src="images/Events/css/poste.jpeg" alt="cssCoding" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700">
+                        <img src="images/Events/css/poster.jpg" alt="cssCoding" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700">
                         <div class="absolute inset-0"></div>
                     </div>
                     <div class="relative z-10 p-6 flex flex-col h-full justify-between">
@@ -173,7 +173,7 @@
             <a href="events/choreo">
                 <div class="event-card snap-center shrink-0 relative group rounded-2xl overflow-hidden border border-white/10 bg-black/40 backdrop-blur-md transition-all duration-500 hover:border-valorant-red/80 hover:shadow-[0_0_30px_rgba(255,70,85,0.4)] hover:-translate-y-2">
                     <div class="absolute inset-0 z-0">
-                        <img src="images/Events/choreo/poste.jpeg" alt="choreo" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700">
+                        <img src="images/Events/choreo/poster.jpg" alt="choreo" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700">
                         <div class="absolute inset-0"></div>
                     </div>
                     <div class="relative z-10 p-6 flex flex-col h-full justify-between">

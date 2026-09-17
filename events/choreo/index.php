@@ -260,12 +260,17 @@
         <div class="notice-box">
           <h3 class="text-yellow">// PAYMENT PROTOCOL</h3>
           <p>You must complete the payment via UPI to secure your spot. Keep a screenshot of your successful transaction, as it must be uploaded to our official Google Form.</p>
-          <select name="college_confirm" id="collegeConfirm" required>
-            <option value="">Confirm You are not in Nirmala College Muvatupuzha</option>
-            <option value="Other">Other College (Eligible)</option>
-            <option value="Nirmala College">Nirmala College (Not Eligible)</option>
-          </select>
-          <div id="nirmalaWarning" style="color: var(--valo-red); margin-top: 10px; display: none;">// ERROR: Students of Nirmala College Muvattupuzha are not eligible to participate in this event.</div>
+          <label class="cyber-checkbox-label" style="margin-bottom: 15px;">
+            <input type="checkbox" name="college_confirm" id="collegeConfirm" value="Other" required>
+            <span class="checkmark"></span>
+            I confirm I am not a student of Nirmala College Muvattupuzha
+          </label>
+
+          <label class="cyber-checkbox-label" style="margin-bottom: 15px;">
+            <input type="checkbox" name="engg_college_confirm" id="enggCollegeConfirm" value="Other" required>
+            <span class="checkmark"></span>
+            I confirm I am not a student of an Engineering College
+          </label>
 
           <label class="cyber-checkbox-label">
             <input type="checkbox" id="paymentAcknowledge">
@@ -298,28 +303,7 @@
   </footer>
 
   <script src="script.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const collegeConfirm = document.getElementById('collegeConfirm');
-      const paymentAcknowledge = document.getElementById('paymentAcknowledge');
-      const nirmalaWarning = document.getElementById('nirmalaWarning');
-      const paymentPortal = document.getElementById('paymentPortal');
 
-      if (collegeConfirm && paymentAcknowledge && nirmalaWarning) {
-        collegeConfirm.addEventListener('change', function() {
-          if (this.value === 'Nirmala College') {
-            paymentAcknowledge.disabled = true;
-            paymentAcknowledge.checked = false;
-            nirmalaWarning.style.display = 'block';
-            if (paymentPortal) paymentPortal.classList.add('hidden');
-          } else {
-            paymentAcknowledge.disabled = false;
-            nirmalaWarning.style.display = 'none';
-          }
-        });
-      }
-    });
-  </script>
 </body>
 
 </html>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAMEO'2.0 | DECODE. DEFY. DISRUPT.</title>
+    <title>CAMEO 2.0 | DECODE. DEFY. DISRUPT.</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +34,7 @@
         <section class="main-content">
             <!-- Hero Section -->
             <section id="home" class="hero w-screen h-screen pt-32">
-                <h1 class="hero-title  tech-font " data-text="CAMEO'2.0">C<img src="images/heroSection/logo-a.png" class="logo-a" alt="A" aria-label="A">MEO<span class="text-valorant-red">'2.O</span></h1>
+                <h1 class="hero-title  tech-font " data-text="CAMEO'2.0">C<img src="images/heroSection/logo-a.png" class="logo-a" alt="A" aria-label="A">MEO<span class="text-valorant-red ml-5">2.O</span></h1>
 
                 <p class="hero-subtitle tech-font">
                     DECODE. <span>DEFY.</span> DISRUPT.<br>

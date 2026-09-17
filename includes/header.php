@@ -1,6 +1,6 @@
 <header class="fixed top-0 left-0 w-full !px-5 md:!px-10 !py-4 md:!py-5 flex justify-between items-center z-[999] bg-black backdrop-blur-sm border-b border-[#ff4655]/20">
     <div class="logo tech-font">
-        C<img src="images/heroSection/logo-a.png" class="logo-a" alt="A" aria-label="A">MEO<span class="text-valorant-red">'2.0</span>
+        C<img src="images/heroSection/logo-a.png" class="logo-a" alt="A" aria-label="A">MEO<span class="text-valorant-red"> 2.0</span>
     </div>
 
     <!-- Mobile Menu Button -->

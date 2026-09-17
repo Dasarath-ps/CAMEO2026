@@ -221,6 +221,12 @@
           <h3 class="text-yellow">// PAYMENT PROTOCOL</h3>
           <p>You must complete the payment via UPI to secure your spot. Keep a screenshot of your successful transaction, as it must be uploaded to our official Google Form.</p>
           
+          <label class="cyber-checkbox-label" style="margin-bottom: 15px;">
+            <input type="checkbox" name="engg_college_confirm" id="enggCollegeConfirm" value="Other" required>
+            <span class="checkmark"></span>
+            I confirm I am not a student of an Engineering College
+          </label>
+
           <label class="cyber-checkbox-label">
             <input type="checkbox" id="paymentAcknowledge">
             <span class="checkmark"></span>
